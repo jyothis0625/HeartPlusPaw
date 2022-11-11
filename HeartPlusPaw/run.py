@@ -10,7 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-
+#reading file 
 with open("Config.yml", "r") as ymlfile:
     cfg = yaml.full_load(ymlfile)
 
